@@ -1,0 +1,139 @@
+.left-username{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 12px 0px 0px;
+
+/* position: absolute; */
+height: 764px;
+width: 320px;
+left: 0px;
+top: 56px;
+bottom: 0px;
+
+/* light/--bg-block/primary */
+
+background: #FFFFFF;
+/* light/--border/primary */
+
+border-right: 1px solid #CDD5DE;
+/* --box-shadow/elevated/right
+
+For side panel etc.
+*/
+box-shadow: 0px 0px 4px rgba(2, 17, 37, 0.04), 2px 0px 8px rgba(2, 17, 37, 0.04), 6px 0px 16px rgba(2, 17, 37, 0.04);
+}
+/* .userSearch{
+    width: 272px;
+    padding: 13px 0px 24px 25px;
+    border: 1px solid;
+} */
+
+.userSearch>input{
+    width: 272px;
+   margin: 13px 24px 0px 25px;
+
+}
+.userchat-detail
+{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 24px;
+gap: 8px;
+
+width: 319px;
+height: 74px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.name-msg >h1{
+ 
+
+/* Label/S-semibold */
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* light/--text/primary */
+
+color: #0E1114;
+}
+.name-msg>p{
+    width: 162px;
+height: 20px;
+
+/* Paragraph/S */
+
+/* font-family: 'Plus Jakarta Sans'; */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* light/--text/secondary */
+
+color: #616C76;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.timer>h4{
+    width: 52px;
+height: 16px;
+
+/* Label/XS */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* light/--text/tertiary */
+
+color: #8FA0AF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.scipicon>img{
+    
+    padding-left: 32px;
+}
